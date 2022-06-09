@@ -1,0 +1,19 @@
+{
+    "name": "vendor/todo",
+    "description": "Todo list",
+    "authors": [
+        {
+            "name": "António Gabriel",
+            "email": "antoniocamposgabriel@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Todo\\": "src/"
+        }
+    },
+    "require": {
+        "ramsey/uuid": "^4.3",
+        "monolog/monolog": "^3.1"
+    }
+}
